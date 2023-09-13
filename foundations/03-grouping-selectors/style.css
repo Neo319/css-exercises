@@ -1,0 +1,17 @@
+.x, 
+.y {
+
+    font-size: 70px;
+    font-family: sans-serif;
+}
+
+.x {
+
+    background-color: hsl(0, 0%, 0%);
+    color:            white;
+}
+
+.y {
+
+    background-color: hsl(60, 100%, 50%); 
+}
