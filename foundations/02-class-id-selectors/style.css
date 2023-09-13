@@ -1,10 +1,20 @@
 div, p {font-family: sans-serif;}
 
-p {background-color: lightsalmon;}
+p {background-color: rgb(255, 154, 136);}
 
 #blu {
-    font-size: x-large;
+    font-size: xx-large;
     color: blue;
-    font-weight: 600;
+    font-weight: 500;
 }
 
+#grn {
+
+    font-weight: 700;
+    background-color: rgb(127, 255, 159);
+    font-size: x-large;
+    
+}
+
+.big {font-size:x-large}
+.small {font-size:medium}
