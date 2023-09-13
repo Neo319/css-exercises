@@ -1,6 +1,10 @@
 div, p {font-family: sans-serif;}
 
+p {background-color: lightsalmon;}
+
 #blu {
     font-size: x-large;
-color: blue;
+    color: blue;
+    font-weight: 600;
 }
+
