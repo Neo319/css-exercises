@@ -5,10 +5,40 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: lightgray;
 }
 
 img {
   width: 600px;
+}
+
+li {
+  list-style-type: none;
+  text-decoration-color: gray;
+  display: inline-block;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: gray;
+}
+
+.content {
+display: flex;
+align-items: center;
+flex-direction: column;
 }
 
 button {
@@ -16,6 +46,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
